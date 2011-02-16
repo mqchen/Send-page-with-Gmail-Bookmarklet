@@ -9,6 +9,13 @@ is set as the body.
 * Download and open the bookmarklet.html file in a browser
 * Drag the "Send page with Gmail" link to your bookmarks bar
 
+## Usage
+
+Once the bookmarklet is in your bookmarks bar, simply click it when you are on a page
+you wish to send to someone and a pop-up should appear.
+
+More info: http://en.wikipedia.org/wiki/Bookmarklet
+
 ## Known issues
 
 * Unfortunately it removes your email signature.
