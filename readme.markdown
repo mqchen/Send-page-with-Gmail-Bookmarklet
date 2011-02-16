@@ -1,7 +1,7 @@
 ## Send page with Gmail Bookmarklet
 
 This is a small bookmarklet which opens a new Gmail window in compose-mode with subject
-and body already filled out. The page«s title is set as the subject and the page«s url
+and body already filled out. The page's title is set as the subject and the page's url
 is set as the body.
 
 ## Known issues
