@@ -4,6 +4,12 @@ This is a small bookmarklet which opens a new Gmail window in compose-mode with 
 and body already filled out. The page's title is set as the subject and the page's url
 is set as the body.
 
+## Install
+
+[Send page with Gmail][1]
+
+Drag the above link to your bookmarks bar.
+
 ## Known issues
 
 * Unfortunately it removes your email signature.
@@ -28,3 +34,5 @@ PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS 
 FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
 OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
+
+  [1]: javascript:window.open('http://mail.google.com/mail/?view=cm&ui=2&tf=0&fs=1&su='+escape(document.title)+'&body='+escape(location.href),'gmail','height=480,width=640');
