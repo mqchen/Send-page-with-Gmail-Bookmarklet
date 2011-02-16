@@ -6,9 +6,8 @@ is set as the body.
 
 ## Install
 
-[Send page with Gmail][1]
-
-Drag the above link to your bookmarks bar.
+* Download and open the bookmarklet.html file in a browser
+* Drag the "Send page with Gmail" link to your bookmarks bar
 
 ## Known issues
 
@@ -35,4 +34,3 @@ FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TOR
 OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 
-  [1]: javascript:window.open('http://mail.google.com/mail/?view=cm&ui=2&tf=0&fs=1&su='+escape(document.title)+'&body='+escape(location.href),'gmail','height=480,width=640');
