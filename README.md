@@ -8,6 +8,7 @@ is set as the body.
 
 * One click to send a link to a page via Gmail's web-interface.
 * Includes selected text in email body
+* Supports selecting of multi-byte characters
 
 ## Install
 
@@ -25,7 +26,6 @@ More info: [en.wikipedia.org/wiki/Bookmarklet][1]
 
 * Unfortunately it removes your email signature.
 * The URL inserted in the boy is in plain-text (but most email clients makes a link)
-* There seems to be a bug in Gmail which disallows multi-byte characters
 
 ## License: MIT
 
