@@ -4,9 +4,14 @@ This is a small bookmarklet which opens a new Gmail window in compose-mode with 
 and body already filled out. The page's title is set as the subject and the page's url
 is set as the body.
 
+## Features
+
+* One click to send a link to a page via Gmail's web-interface.
+* Includes selected text in email body
+
 ## Install
 
-* Download and open the bookmarklet.html file in a browser
+* Download and open the `bookmarklet.html` file in a browser
 * Drag the "Send page with Gmail" link to your bookmarks bar
 
 ## Usage
@@ -14,12 +19,13 @@ is set as the body.
 Once the bookmarklet is in your bookmarks bar, simply click it when you are on a page
 you wish to send to someone and a pop-up should appear.
 
-More info: http://en.wikipedia.org/wiki/Bookmarklet
+More info: [en.wikipedia.org/wiki/Bookmarklet][1]
 
 ## Known issues
 
 * Unfortunately it removes your email signature.
 * The URL inserted in the boy is in plain-text (but most email clients makes a link)
+* There seems to be a bug in Gmail which disallows multi-byte characters
 
 ## License: MIT
 
@@ -41,3 +47,5 @@ FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TOR
 OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 
+
+  [1]: http://en.wikipedia.org/wiki/Bookmarklet
