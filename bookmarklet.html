@@ -5,7 +5,7 @@
 <title>Send page with Gmail - Bookmarklet</title>
 </head>
 <body>
-<a href="javascript:(function(){var a=encodeURIComponent(location.href)+escape('\x0A'+'\x0A')+encodeURIComponent((!!document.getSelection)?document.getSelection():(!!window.getSelection)?window.getSelection():document.selection.createRange().text);var u='http://mail.google.com/mail/?view=cm&ui=2&tf=0&fs=1&su='+escape(document.title)+'&body='+a;if(u.length >= 2048){window.alert('Please select less text');return;}window.open(u,'gmail','height=540,width=640');console.debug(a)})();void(0);">
+<a href="javascript:(function(){var a=encodeURIComponent(location.href)+escape('\x0A'+'\x0A')+encodeURIComponent((!!document.getSelection)?document.getSelection():(!!window.getSelection)?window.getSelection():document.selection.createRange().text);var u='http://mail.google.com/mail/?view=cm&ui=2&tf=0&fs=1&su='+encodeURIComponent(document.title)+'&body='+a;if(u.length >= 2048){window.alert('Please select less text');return;}window.open(u,'gmail','height=540,width=640');console.debug(a)})();void(0);">
     Send page with Gmail
 </a>
 <p>Drag the above link to your bookmarks bar.</p>
