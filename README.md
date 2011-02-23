@@ -25,7 +25,7 @@ More info: [en.wikipedia.org/wiki/Bookmarklet][1]
 ## Known issues
 
 * Unfortunately it removes your email signature.
-* The URL inserted in the boy is in plain-text (but most email clients makes a link)
+* The URL inserted in the body is in plain-text (but most email clients makes a clickable link)
 
 ## License: MIT
 
